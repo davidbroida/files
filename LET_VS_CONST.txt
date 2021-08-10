@@ -1,0 +1,25 @@
+LET VS CONST 
+
+
+What is the difference between VAR and LET?
+ - You can redeclare with var but you can't with let. 
+ - You can access a "hoisted" variable, aka. A variable that has more or less
+	been moved to the top of the scope of the code they are declared in and 
+	you can access the variable as undefined before it's used later on. 
+ - Let creates block scope
+
+Whats the difference between var and const?
+
+ - You can reassign and redeclare with var but you can't with const. 
+ - You can access a hoisted variable with var but not const. 
+ - Const creates block scope.
+
+Whats the difference between let and const?
+
+ - You can reassign with let but you can't with const. 
+
+What is hoisting?
+
+ - Using the variable VAR that you can assign a variable that has more or less been moved
+	To the to of the scope of the code it is declared in. You can access the variable as 
+	Undefined before it is used later on.
