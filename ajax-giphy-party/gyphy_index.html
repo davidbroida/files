@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Giphy Party!</title>
+  <style>
+
+    body{
+      background-color: black;
+      text-align: center;
+    }
+    h1{
+      color: blanchedalmond;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    #btn-1 {
+      background-color: blue;
+      border: 0;
+      padding: 5px;
+      color:azure;
+      box-shadow: none;
+    }
+
+    #btn-2 {
+      background-color: red;
+      border: 0;
+      padding: 5px;
+      color: azure;
+    }
+
+  </style>
+</head>
+
+<body>
+  <h1>GIPHY GENERATOR</h1>
+  <form action="submit" id="submitForm">
+    <input type="text" id="search">
+    <button type="submit" id="btn-1">Search Giphy!</button>
+    <button id="btn-2">Delete Images</button>
+  </form>
+  <br>
+  <div id="imageList"></div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.js"></script>
+<script src="gyphy_app.js"></script>
+</body>
+
+</html>
