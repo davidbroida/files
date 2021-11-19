@@ -1,0 +1,51 @@
+The Roadmap to Landing Your Next Job as a Software Engineer
+(found on meetup.com)
+
+Online Webinar Based of Singapore 
+Friday November 19th 12:30-13:30
+
+(This webinar wasn't so much a networking event but more so a webinar with tons of useful information from software engineers. I found it super useful and will continue to look for more networking oriented events on meetup.com)
+
+Speakers:   1. Courtney Beattie ( Full Stack Web Developer  at Bandlab Technologies)
+2. Erik Nguyen- Endowus Singapore (Fintec Company for Investments)
+3. Angelina- Software Engineer at Thoughtworks
+
+-Full Stack more popular at smaller start up companies that need people who are jack of all trades.  
+-Recommends studying full stack and then specializing after a while and figuring out where you’re strongest and what you enjoy the most.
+
+-Courtney: feels lucky to land her first job as a full-stack engineer because she was able to learn to whole picture and see the whole picture as part of her first job
+
+-Her bootcamp prepared her pretty well but understanding the infrastructure side was something she had to learn on the job. Not something that she learned much about before she was hired. Try to understand AWS, land of functions etc. are at a very surface level
+
+-Angelina… after 10 years as a corporate sales professional wanted a change. Wasn’t a “mid life crisis” but wanted something new that wasn’t so routine. The main reason that she switched jobs was because of the rise of automation making her worried about future job security. *Advice to someone in a similar situation/ doing a career change* GO FOT IT! Life is short and don’t want to regret not taking the opportunity. Highly recommends a career in software development and feels that its an very rewarding career that doesn’t look like it will be oversaturated anytime soon. If you have doubts about it… hang in there. Soon the situation will reverse and you will start to feel good in your role. It’s still a very healthy market for software engineering. 
+
+Erik - Interview process consisted of three rounds… first screening, second technical, third with a senior level manager. Two sided discussion.. not just to see if the company likes you but also to make sure that you chose the right company.
+Day to day life (senior software engineer): every day is different. Code review… check GitHub to see what his colleagues have changed. Team meetings. Front end team (React Redux HTML CSS). Not just coding coding coding but also communicate a lot with team mates. 
+
+Courtney: Her bootcamp was intense but helped her develop a pretty deep understanding of everything. 12 week bootcamp but the real learning begins on the job. Bootcamp only scratched the surface. A lot of self learning and motivation is necessary. Bootcamp was the start of a lifetime / career of learning. 
+
+Erik: what’s your take on students that don’t have a traditional CS background? Answer: just go for it! Industry is very open to non degree candidates. Been part of the interviewing and hiring teams for his company.. Noticeable improvement is the most important. Having no CS degree is not a problem at all. 
+
+Angeline- Agile delivery involves pairing during development. Two developers working on solving some of the same problems so you can take turns coding and giving opinions and driving a project forward. Besides just developing software she’s also learning from the other person she was paired with. This process of how they develop software at Thoughtworks was very interesting to her. Very client focused.. as a software consultant they don’t necessarily have a big boss. The boss is the client so communication with the client is a day-to- day part of the job. Lots of team work and collaboration involved.
+
+What are some of the most exciting trends and opportunities that you see in the software engineering field.   	-Country: AI and machine learning seems to be able to applied everywhere even though its something that she knows very little about. Its being applied to more and more fields. 
+
+	-Angeline: Data field.. even if you aren’t going to be a data scientist you definitely need some knowledge in data how to develop and manipulate it. *definitely worth learning a bit of this on your own*
+
+	-Erik: Big companies are starting to have interest in the “Metaverse” so AI and machine learning is definitely a big trend. Web 1 vs Web 2 vs Web 3 
+
+	*Note* everyone seems to keep bringing up REACT it seems like its really important for me to focus on this. 
+
+Read: Head First Object-Oriented Analysis and Design
+Clean Code - Robert Martin
+
+Tip*- Follow coders and developers that you find to be inspiring   Q & A Session:  My questions: 
+
+1. Whats the culture in the industry right now for remote work? One of the reasons I was attracted to the software engineering field is the idea that you can work from anywhere. Do you think working remotely from Bali will make it difficult for me to find a job?
+
+Answer: The industry is as open as its ever been to remote work. Seeing more and more remote work opportunities. One of the disadvantages is that you need to use your communication tools more. Working from home as a learner can be tougher if it’s your first job.
+
+2. My friend also did a GA bootcamp and I’m shocked that it was only 3 months. I’m doing a 9 month full stack bootcamp right now.. what do you think the major differences are?
+
+Tips for getting hired:
+Paying extra for the inMail feature on linkedIn so you can message people directly. Attending meetups from meetUp.com helps a lot as well. 
