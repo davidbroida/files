@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% block title %} Home {% endblock %} 
+
+{% block content %}
+    <h1>Madlibs</h1>
+    <form action="#">
+        <label for="story-names">Story Type:</label>
+        <select name="story-names" id="story-names">
+            <option value="happy">Happy</option>
+        </select>
+    </form>
+
+    <br>
+    <form id="main_form" action="/happy_story">
+    <label for="place">place:</label>
+    <input class="input" id="place" type="text" placeholder="enter a place" name='place'>
+    <br>
+    <label for="noun">noun:</label>
+    <input class="input" id="noun" type="text" placeholder="enter a noun" name='noun'>
+    <br>
+    <label for="verb">verb:</label>
+    <input class="input" ="place" type="text" placeholder="enter a verb" name='verb'>
+    <br>
+    <label for="adjective">adjective:</label>
+    <input class="input" id="place" type="text" placeholder="enter an adjective" name='adjective'>
+    <br>
+    <label for="plural_noun">plural_noun:</label>
+    <input class="input" id="place" type="text" placeholder="enter a plural noun" name='plural_noun'>
+    <br>
+    <button>Submit</button>
+    </form>
+
+{% endblock %}
