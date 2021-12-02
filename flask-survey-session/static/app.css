@@ -1,0 +1,7 @@
+.messages .error {
+	color: white;
+	background-color: rgb(245, 116, 116);
+	padding: 1rem;
+	font-size: 1rem;
+	border-radius: 1rem;
+}
