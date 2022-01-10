@@ -1,0 +1,46 @@
+Capstone Project #1 Proposal 
+Crypto Crunch App
+
+1. What goal will your website be designed to achieve? 
+
+- The goal is to help users research crytpo currency projects by displaying token data based on user generated search criteria. The goal is to build upon popular apps like Coin Marketcap but create a more personalized experience that focuses on  streamlining high quality research. It should be very similar to Coin Marketcap but I think that using a Twitter API rather than a news API would be an improvement because it would allow users to see what people are saying in real time. Most apps seems to just provide links to various news articles. Aside from research, investors typically look at the market daily / habitually so a uniquely personalized platform could easily get a lot of use. 
+
+2. What kind of users will visit your site? In other words, what is the demographic of your users? 
+- The user demographic is anyone who is interested in researching crypto currencies… ranging from complete newbies to knowledgeable users who will appreciate an all-in-one experience that would otherwise require the use of multiple apps.
+
+3. What data do you plan on using? You may have not picked your actual API yet, which is fine, just outline what kind of data you would like it to contain. 
+ - I would like to pull numeric data, graphic data(charts) and a live view / representation of what people are saying about each product on twitter. I believe that this can be achieved by using the APIs “Crypto Compare API”, the official “Twitter API” and the D3 API for creating charts and visuals from data. 
+
+4. In brief, outline your approach to creating your project (knowing that you may not know everything in advance and that these details might change later). Answer questions like the ones below, but feel free to add more information: 
+
+a. What does your database schema look like? 
+
+- 1. Will have a “User” table that contains user Id, username, first name last name and email. 
+- 2. Will have a “Favorites” table that contains crypto(project) id, project name, foreign key to userId
+
+b. What kinds of issues might you run into with your API? 
+
+- I might have some issues with incomplete data coming from the API making certain dashboards look empty/ buggy
+- I worry that I might run into issues with API’s not giving me all of the data that I want/ providing data that isn’t as useful as I’d like it to be. 
+- I worry that I might run into issues figuring out how to make the appropriate GET requests for the information that I want.
+
+c. Is there any sensitive information you need to secure? 
+
+- Password & email. 
+
+d. What functionality will your app include? 
+
+- A log in page, a home page, a search bar, a generic landing page for each token and a favorites section.
+
+e. What will the user flow look like? 
+
+- Users will need to log in/register to get access to the main page / dashboard. 
+- Users will be able to get an idea of where the market stands at first glance, with a list of the top 25 coins and their current prices, 24/hr % change, current market cap etc. 
+- Users will be able to create a favorites section so they can save coins of interest that they’ve researched. 
+- Each coin should load its own personal dashboard that includes a chart and as much useful information pulled from the API as possible, and a section that pulls from the Twitter API which allows people to see what people are saying about the ticker in real time. 
+
+f. What features make your site more than CRUD? Do you have any stretch goals?
+
+- At bare minimum I’d like users to be able to search tokens from a list and create/ remove favorite projects. Im not sure if it’s a stretch but including a notes section where users can write their own notes about each project might be nice too.
+
+- Higher level goals I think center around the search capability. Users being able to search coins based on metrics such as market cap, age of project, etc. would be nice but might be rather difficult. I’ve never made a search bar before.
