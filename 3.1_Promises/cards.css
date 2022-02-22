@@ -1,0 +1,28 @@
+body {
+	background-color: green;
+}
+
+#button {
+	width: 100px;
+	height: 50px;
+	color: black;
+	background-color: red;
+	align-items: center;
+	align-content: center;
+	text-align: center;
+	border: none;
+	border-radius: 8px;
+	margin-left: 300px;
+}
+
+#button:hover {
+	cursor: pointer;
+	color: white;
+}
+
+.card {
+	width: auto;
+	height: auto;
+	align-content: center;
+	margin-top: 10px;
+}
