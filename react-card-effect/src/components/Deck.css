@@ -1,0 +1,26 @@
+.Deck {
+  text-align: center;
+}
+
+.Deck-gimme {
+  padding: 15px;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  margin: 0 10px;
+}
+
+.Show-Deck:hover {
+  cursor: pointer;
+  background-color: #444;
+}
+
+.Show-Deck:active,
+.Show-Deck:focus {
+  outline: none;
+}
+
+.deck-area {
+  margin-top: 80px;
+}
