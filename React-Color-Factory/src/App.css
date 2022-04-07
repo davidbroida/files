@@ -1,0 +1,88 @@
+.heading {
+  text-align: center;
+}
+
+.mainBody {
+  text-align: center;
+}
+
+
+.color{
+  height:500px;
+  width: 500px;
+}
+.color-red{
+  background-color: red;
+  color: white;
+  height: 500px;
+  width: 500px;
+  /* margin-top: 50px; */
+  margin: 100px auto auto auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.color-red a:hover{
+  color:black;
+}
+.color-red a:visited{
+  color:white;
+}
+
+.color-blue{
+  background-color: blue;
+  color: white;
+  height: 500px;
+  width: 500px;
+  /* margin-top: 50px; */
+  margin: 100px auto auto auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.color-blue a:hover{
+  color:black;
+}
+.color-blue a:visited{
+  color:white;
+}
+
+.color-green{
+  background-color: green;
+  color: white;
+  height: 500px;
+  width: 500px;
+  /* margin-top: 50px; */
+  margin: 100px auto auto auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  }
+
+.color-green a:hover{
+  color:black;
+}
+.color-green a:visited{
+  color:white;
+}
+
+a:link{
+  color: black;
+}
+a:visited{
+  color:black;
+}
+
+
+
+
+
+
+
+
