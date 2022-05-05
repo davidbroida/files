@@ -1,0 +1,61 @@
+<script>
+
+  function guessingGame() {
+    const answer = Math.floor(Math.random() * 100);
+    let count = 0;
+    let hasWon = false;
+
+    return function guess(num) {
+
+      if (hasWon) return ('Stop guessing.. you already won!');
+      count++;
+
+      if (num === answer) {
+        hasWon = true;
+        const guess = count === 1 ? "guess" : "guesses";
+        return (`Congratulations! You found the number ${num} in ${count} guesses!`);
+      }
+
+      if (num < answer) return (`${num} is too low. Guess higher!`);
+      if (num > answer) return (`${num} is too high. Guess lower!`);
+    }
+  }
+
+  function createAccount(pin, amount = 0) {
+    return {
+      checkBalance(inputPin) {
+        if (inputPin !== pin) return 'Invalid PIN.';
+        return `Your current balance is: $${amount}`;
+      },
+
+      deposit(inputPin, depositAmount) {
+        if (inputPin !== pin) return 'Invalid PIN.';
+        amount += depositAmount;
+        return `Successfully deposited ${depositAmount}! Your new balance is: $${amount}.`
+      },
+
+      withdraw(inputPin, withdrawlAmount) {
+        if (inputPin !== pin) return 'Invalid PIN.';
+        if (withdrawlAmount > amount) return 'Withdrawl amount exceeds current balance.'
+        amount -= withdrawlAmount;
+        return `$${withdrawlAmount} withdrawl successful! Your current balance is now: $${amount}.`
+      },
+
+      changePin(inputPin, newPin) {
+        if (inputPin !== pin) return 'Invalid PIN.';
+        pin = newPin;
+        return 'PIN successfully changed!';
+      }
+    };
+  }
+
+  function curriedAdd(total) {
+    if (total === undefined) return 0;
+    return function addNext(num) {
+      if (num === undefined) return total;
+      total += num;
+      return addNext;
+    };
+  }
+
+</script>
