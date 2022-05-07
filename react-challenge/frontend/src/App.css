@@ -1,0 +1,72 @@
+main {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15vh;
+  height: calc(100vh - 56px);
+  /* router view - navbar height */
+  overflow: scroll;
+  color: white;
+}
+
+body {
+  background-color: lightblue;
+}
+
+.signupForm {
+  padding: 0px 100px 0px 20px;
+  background-color: lightblue;
+}
+
+h1 {
+  background: rgb(19, 88, 111);
+  padding: 20px;
+  color: white;
+}
+
+h2 {
+  background: rgb(19, 88, 111);
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.outer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 225px;
+  justify-content: center;
+
+}
+
+.button {
+  border: none;
+  color: white;
+  background-color: orange;
+  padding: 5px 15px 5px 15px;
+  border-radius: 3px;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 225px;
+
+}
+
+.home-links {
+  margin-left: 20px;
+  padding: 8px 0px 0px 3px;
+}
+
+.form-text {
+  font-size: small;
+  font-style: italic;
+}
+
+a:visited {
+  color: rgb(170, 113, 6);
+}
